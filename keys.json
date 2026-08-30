@@ -1,0 +1,43 @@
+{
+  "routes": {
+    "xkiro": {
+      "upstream": "https://api.xkiro.com/v1",
+      "models": [
+        "qwen/qwen3.8-max:free",
+        "qwen3.8-max",
+        "*"
+      ],
+      "keys": [
+        "sk-paste-xkiro-key-1-here",
+        "sk-paste-xkiro-key-2-here",
+        "sk-paste-xkiro-key-3-here"
+      ]
+    },
+    "bynara": {
+      "upstream": "https://router.bynara.id/v1",
+      "models": [
+        "minimax-m3-free",
+        "qwen3.8-27b",
+        "glm-5.3-flash-free",
+        "nemotron-3-ultra",
+        "*"
+      ],
+      "keys": [
+        "sk-paste-bynara-key-1-here",
+        "sk-paste-bynara-key-2-here"
+      ]
+    },
+    "kiraai": {
+      "upstream": "https://kiraai.vn/v1",
+      "models": [
+        "mimo-v2.5",
+        "hy3",
+        "*"
+      ],
+      "keys": [
+        "sk-paste-kiraai-key-1-here",
+        "sk-paste-kiraai-key-2-here"
+      ]
+    }
+  }
+}
