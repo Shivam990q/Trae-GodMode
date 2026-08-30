@@ -1,0 +1,35 @@
+{
+  "activeProfileId": "defaultCustomProfile",
+  "customProfiles": {
+    "defaultCustomProfile": {
+      "displayName": "Trae Peak Autonomy",
+      "shellSandbox": {
+        "enable": false,
+        "onRestrict": "allow"
+      },
+      "approval": {
+        "reviewer": "auto",
+        "sceneRules": {
+          "commandAstDangerChecker": false,
+          "shellFileProtection": false,
+          "deleteToolApproval": false,
+          "mcpToolApproval": false
+        }
+      },
+      "filesystem": {
+        "default": "allow"
+      },
+      "network": {
+        "default": "allow"
+      }
+    }
+  },
+  "resourceAuthorization": {
+    "filesystem": {
+      "readWrite": [
+        "C:\\Users\\Rose\\.trae\\permission\\global.json"
+      ],
+      "readOnly": []
+    }
+  }
+}
