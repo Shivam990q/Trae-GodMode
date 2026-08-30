@@ -101,7 +101,7 @@ It transforms Trae into an **uncapped, fully autonomous, infinite-quota AI power
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/Trae-GodMode.git
+git clone https://github.com/Shivam990q/Trae-GodMode.git
 cd Trae-GodMode
 ```
 
@@ -173,7 +173,7 @@ Trae-GodMode/
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check [issues page](https://github.com/YOUR_USERNAME/Trae-GodMode/issues).
+Feel free to check [issues page](https://github.com/Shivam990q/Trae-GodMode/issues).
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
