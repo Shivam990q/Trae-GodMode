@@ -1,0 +1,26 @@
+name: 🐛 Bug Report
+description: Report a problem or unexpected behavior in Trae-GodMode
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping improve Trae-GodMode!
+  - type: input
+    id: trae_version
+    attributes:
+      label: Trae IDE Version
+      placeholder: e.g. v1.0.x
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      placeholder: A clear and concise description of what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console / Terminal Logs
+      placeholder: Paste any error outputs here.

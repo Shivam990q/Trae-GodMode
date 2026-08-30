@@ -1,0 +1,11 @@
+name: 💡 Feature Request
+description: Propose a new superpower or unlock for Trae-GodMode
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: Proposed Feature
+      placeholder: What capability would you like to see?
+    validations:
+      required: true
